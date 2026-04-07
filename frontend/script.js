@@ -11,7 +11,7 @@ async function searchJobs() {
 
   try {
     const res = await fetch(
-      `http://localhost:5000/jobs?query=${query}&skills=${skills}&location=${location}`
+      `https://job-backend-4llq.onrender.com/jobs?query=${query}&skills=${skills}&location=${location}`
     );
 
     const jobs = await res.json();
