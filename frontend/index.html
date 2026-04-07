@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚀 Smart Job Finder</h1>
+
+    <div class="search-box">
+      <input type="text" id="search" placeholder="Job role (e.g. React Developer)">
+      <input type="text" id="skills" placeholder="Skills (e.g. react, node)">
+      <input type="text" id="location" placeholder="Location (e.g. India)">
+      <button onclick="searchJobs()">Search</button>
+    </div>
+
+    <div id="loading" class="loading">Finding best jobs...</div>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
